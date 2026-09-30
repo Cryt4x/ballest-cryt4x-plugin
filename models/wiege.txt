@@ -1,0 +1,7 @@
+# An antique brass balance scale inside a clear ball, a gold ball in its left pan and a silver ball in its right: a 3D
+# model file (wiege_kugeln.glb: wiege.glb, exported from Blender, with the two balls added) with its own brass, dark
+# wood, gold and silver colours. The travel group keeps it upright and facing where the ball goes. The scale is
+# 83 cm tall, so no part of it reaches further than 47 from the ball's centre (the ball is 50), and lowered so its
+# middle sits at the ball's centre.
+group scale travel
+mesh wiege_kugeln.glb size=83 at=0,0,-36

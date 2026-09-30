@@ -1,0 +1,11 @@
+[meta]
+name = "CryT4x"
+version = "0.1.11"
+author = "CryT4x"
+description = "Just a test for a Ballest plugin. Writes 'CryT4x' in the console and adds two clear balls: a balance scale with a gold and a silver ball in its pans, and the Dominus car from Rocket League."
+min_host = "0.16.0"
+dependencies = ["cosmetic-kit"]
+
+[script]
+files = ["main.as"]
+assets = ["*.png", "models/*.txt", "models/*.glb"]
