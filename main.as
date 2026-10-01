@@ -10,8 +10,8 @@ string Message = "Hello o7";
 [Setting name="Every" min=5 max=600 description="Seconds between messages"]
 float Every = 60;
 
-// Clear balls with a 3D model file inside (models/wiege_kugeln.glb placed by models/wiege.txt, models/dominus.glb placed
-// by models/dominus.txt), added to the Customize page through Cosmetic Kit (a dependency: see info.toml).
+// A clear ball with a 3D model file inside (models/wiege_kugeln.glb placed by models/wiege.txt), added to the
+// Customize page through Cosmetic Kit (a dependency: see info.toml).
 import bool AddBall(const string &in, const string &in, const string &in, const string &in, const string &in) from "cosmetic-kit";
 
 float elapsed = 0;
@@ -23,7 +23,6 @@ void Main()
 
     string f = Plugins::Folder();
     AddBall("cryt4x.wiege", "Waage", "", f + "wiege_preview.png", f + "models/wiege.txt");
-    AddBall("cryt4x.dominus", "Dominus", "", f + "dominus_preview.png", f + "models/dominus.txt");
 }
 
 // The player changed a setting: say so, and start counting again.
